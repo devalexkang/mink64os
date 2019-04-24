@@ -11,4 +11,5 @@ Day02: install qemu, install gcc, nasm
  bootloader using assembly : BootLoader.asm
  - nasm -f bin -o Disk.bin BootLoader.asm
 
- Tomorrow : make Disk.img through Disk.bin
+ Test Disk.bin as bootloader using qemu
+ -  qemu-system-x86_64 -fda Disk.bin -M pc
