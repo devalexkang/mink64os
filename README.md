@@ -62,3 +62,13 @@ Day03:
     - nasm -f bin -o Disk.bin BootLoader.asm
     - qemu-system-x86_64 -fda Disk.bin -M pc
     
+    
+Day04:
+    
+    new bootloader - BootLoader2.asm : to show "hello world"
+    - beginning address of boot loader : 0x7c0
+    - beginning video memory address : 0xb800
+    - loop to clear screen : .screenclearloop
+    - loop to print message : .messageloop
+    - message : message1
+    

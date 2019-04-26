@@ -55,9 +55,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8408614a-9e48-4b0e-9d53-2d3c74ad4d43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00.BootLoader/BootLoader.asm" afterDir="false" />
+    <list default="true" id="8408614a-9e48-4b0e-9d53-2d3c74ad4d43" name="Default Changelist" comment="day3">
+      <change afterPath="$PROJECT_DIR$/00.BootLoader/BootLoader2.asm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,11 +89,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00.BootLoader/BootLoader.asm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00.BootLoader/BootLoader2.asm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1095">
+                <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -108,8 +130,9 @@
       <list>
         <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/00.BootLoader/makefile" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/00.BootLoader/BootLoader.asm" />
+        <option value="$PROJECT_DIR$/00.BootLoader/BootLoader2.asm" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -120,10 +143,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="346" />
-    <option name="y" value="27" />
-    <option name="width" value="1877" />
-    <option name="height" value="2133" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1887" />
+    <option name="height" value="2135" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,7 +222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556029218871</updated>
-      <workItem from="1556029220961" duration="8508000" />
+      <workItem from="1556029220961" duration="16004000" />
     </task>
     <task id="LOCAL-00001" summary="basic directories">
       <created>1556030209496</created>
@@ -222,11 +245,39 @@
       <option name="project" value="LOCAL" />
       <updated>1556033954328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day2">
+      <created>1556118020438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556118020438</updated>
+    </task>
+    <task id="LOCAL-00005" summary="day2 + note">
+      <created>1556118415593</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556118415593</updated>
+    </task>
+    <task id="LOCAL-00006" summary="day2 + note + qemu">
+      <created>1556119224745</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556119224745</updated>
+    </task>
+    <task id="LOCAL-00007" summary="day3">
+      <created>1556194854485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556194854485</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8508000" />
+    <option name="totallyTimeSpent" value="16004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -238,14 +289,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="346" y="27" width="1877" height="2133" extended-state="4" />
+    <frame x="67" y="25" width="1887" height="2135" extended-state="4" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959038" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24823466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32984033" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32984033" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32951146" />
       <window_info anchor="bottom" id="TeamCity" weight="0.32984033" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -268,19 +319,13 @@
     <MESSAGE value="basic directories" />
     <MESSAGE value="basic directories + makefile" />
     <MESSAGE value="basic directories + makefile + 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic directories + makefile + 2" />
+    <MESSAGE value="day2" />
+    <MESSAGE value="day2 + note" />
+    <MESSAGE value="day2 + note + qemu" />
+    <MESSAGE value="day3" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00.BootLoader/makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -297,8 +342,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/00.BootLoader/BootLoader.asm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00.BootLoader/BootLoader2.asm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1095">
+            <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
