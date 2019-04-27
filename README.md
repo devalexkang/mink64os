@@ -1,6 +1,8 @@
 # mink64os
 project to make OS
 
+source : http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979148367&orderClick=LAH&Kc=
+
 Day01. 20190423 Creation of Git repository, directories, makefile test (tab, no space)
 
 Day02: 
@@ -65,10 +67,39 @@ Day03:
     
 Day04:
     
-    new bootloader - BootLoader2.asm : to show "hello world"
+    new bootloader -/mink64os/00.BootLoader/BootLoader2.asm : to show "hello world"
     - beginning address of boot loader : 0x7c0
     - beginning video memory address : 0xb800
     - loop to clear screen : .screenclearloop
     - loop to print message : .messageloop
     - message : message1
+    
+    - nasm -f bin -o Disk2.bin BootLoader2.asm
+    - qemu-system-x86_64 -fda Disk2.bin -M pc
+    
+Day05:
+
+    assembly
+    source : https://github.com/gurugio/book_assembly_8086_ko/blob/master/README.md
+    
+    1. general register : 16 bits
+    - AX : arithmetic register
+    - BX : base address register
+    - CS : counter register ( to count loop)
+    - DX : data register ( to sotre data )
+    - SI : source index register
+    - DI : destination index register
+    - BP ; bases pointer register ( to keep stack base address)
+    - SP : stack pointer resiter ( to store stack address current using)
+    
+    2. segment register : to extend memory addresses with general register
+    - CS : segment address where to store  current program
+    - DS : segment address where to store data using now
+    - ES : segment address ?
+    - SS : segmnet address where stack locates
+    
+    3. special register : developer cannot control it
+    - IP : instruction poinster ( address where to store current command )
+    - flag register : to show processor status
+    
     
