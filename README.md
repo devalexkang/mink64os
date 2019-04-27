@@ -82,15 +82,15 @@ Day05:
     assembly
     source : https://github.com/gurugio/book_assembly_8086_ko/blob/master/README.md
     
-    1. general register : 16 bits
-    - AX : arithmetic register
-    - BX : base address register
-    - CS : counter register ( to count loop)
-    - DX : data register ( to sotre data )
-    - SI : source index register
-    - DI : destination index register
-    - BP ; bases pointer register ( to keep stack base address)
-    - SP : stack pointer resiter ( to store stack address current using)
+    1. general register : 32bits for 64 (16 bits for 32, without E or e)
+    - EAX : arithmetic register
+    - EBX : base address register
+    - ECS : counter register ( to count loop)
+    - EDX : data register ( to sotre data )
+    - ESI : source index register
+    - EDI : destination index register
+    - EBP ; bases pointer register ( to keep stack base address)
+    - ESP : stack pointer resiter ( to store stack address current using)
     
     2. segment register : to extend memory addresses with general register
     - CS : segment address where to store  current program
@@ -99,7 +99,19 @@ Day05:
     - SS : segmnet address where stack locates
     
     3. special register : developer cannot control it
-    - IP : instruction poinster ( address where to store current command )
-    - flag register : to show processor status
+    - EIP : instruction poinster ( address where to store next command )
+    - eflag register : to show processor status, 32bit and each bit has its own meaning
+    
+    -------------------------------------------------------
+    emulator
+    source : https://dman95.github.io/SASM/english.html
+    ./mink64os/04.Utility/01.Dman95-SASM-ae16f40
+    Compile method : ./mink64os/04.Utility/01.Dman95-SASM-ae16f40/README.txt
+    After build, run debug with several breakpoint then it shows register list and values
+    
+    - sasm
+    --------------------------------------------------------
+    
+    
     
     
