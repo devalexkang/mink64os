@@ -82,15 +82,17 @@ Day05:
     assembly
     source : https://github.com/gurugio/book_assembly_8086_ko/blob/master/README.md
     
-    1. general register : 32bits for 64 (16 bits for 32, without E or e)
-    - EAX : arithmetic register
-    - EBX : base address register
-    - ECS : counter register ( to count loop)
-    - EDX : data register ( to sotre data )
-    - ESI : source index register
-    - EDI : destination index register
-    - EBP ; bases pointer register ( to keep stack base address)
-    - ESP : stack pointer resiter ( to store stack address current using)
+    1. general register :
+        64 bits - prefix R, 32bits - prefix E , 16 bits - non prrefix
+        exp : RAX, EAX, AX
+    - RAX : arithmetic register
+    - RBX : base address register
+    - RCS : counter register ( to count loop)
+    - RDX : data register ( to sotre data )
+    - RSI : source index register
+    - RDI : destination index register
+    - RBP ; bases pointer register ( to keep stack base address)
+    - RSP : stack pointer resiter ( to store stack address current using)
     
     2. segment register : to extend memory addresses with general register
     - CS : segment address where to store  current program
@@ -99,7 +101,7 @@ Day05:
     - SS : segmnet address where stack locates
     
     3. special register : developer cannot control it
-    - EIP : instruction poinster ( address where to store next command )
+    - RIP : instruction poinster ( address where to store next command )
     - eflag register : to show processor status, 32bit and each bit has its own meaning
     
     -------------------------------------------------------
@@ -113,5 +115,51 @@ Day05:
     --------------------------------------------------------
     
     
+Day06:
+
+    assembly : 16bit
+    
+    method to indicate memory address : d16 = 16 bit number offset, d8 = 8bit number offset
+    [] : pointer 
+     
+    [BX + SI]
+    [BX + DI]
+    [BP + SI]
+    [BP + DI]	
+    [SI]
+    [DI]
+    [BX]	
+    [BX + SI + d8]
+    [BX + DI + d8]
+    [BP + SI + d8]
+    [BP + DI + d8]
+    [SI + d8]
+    [DI + d8]
+    [BP + d8]
+    [BX + d8]	
+    [BX + SI + d16]
+    [BX + DI + d16] 
+    [BP + SI + d16]
+    [BP + DI + d16]	
+    [SI + d16]
+    [DI + d16]
+    [BP + d16]
+    [BX + d16]
+    
+    example :
+    org 100h            ; starting at adress 100h
+    mov ax, 0b800h      ; ax = 0b800h  (to store value in register)
+    mov ds, ax          ; ds = ax ( 0b800h )  (to store register value in segment)
+    mov bx, 0           ; bx = 0   (base address is 0)
+    mov cl, 'A'         ; cl = 'A' (16 bit cx's 8bit low part = 'A')
+    mov ch, 11011111b   ; ch = 11011111b (16 bit cx's 8bit hgih part = 1101111;b)
+    mov ds:[bx], cx     ; 0b800h + 0h  = 0b800h = cx = (ch + cl) = 1101111b + 'A'
+    mov [bx+2], cx      ; ds+bx+2 = 0b800h + 0 + 2 = 0b802h = cx = (ch + cl) = 11011111b + 'A'
+    mov si, 4           ; si = 4
+    mov [bx+si], cx     ; [bx + si] = [4] = ds + 4 = 0b804h = cx
+    mov [bx+si+2], cx   ; ds + 4 +2 = 0b806h = cx
+    ret
+    
+    etc : sasm has error while compiling. I will focus to use nasm
     
     
