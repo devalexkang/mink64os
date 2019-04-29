@@ -55,434 +55,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8408614a-9e48-4b0e-9d53-2d3c74ad4d43" name="Default Changelist" comment="day5-assembly emulator">
-      <change afterPath="$PROJECT_DIR$/05.Assembly/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Assembly/assemblytest01.asm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Assembly/assemblytest01.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Assembly/hello.asm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Assembly/hello.o" afterDir="false" />
+    <list default="true" id="8408614a-9e48-4b0e-9d53-2d3c74ad4d43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/00.BootLoader/TestBootLoader_Assembly.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/bin/fasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/bin/listing" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/applications/sasm.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/doc/sasm/changelog.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/doc/sasm/copyright" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/NASM/macro.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/Projects/FASMHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/Projects/FASMHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/Projects/GASHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/Projects/GASHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/Projects/NASMHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/Projects/NASMHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/include/io.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/include/io64.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/keys.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/BSD/share/sasm/sasm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/COPYING" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/COPYING_RUS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Help.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Images.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Languages.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/bin/fasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/bin/listing" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/applications/sasm.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/doc/sasm/changelog.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/doc/sasm/copyright" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/NASM/macro.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/Projects/FASMHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/Projects/FASMHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/Projects/GASHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/Projects/GASHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/Projects/NASMHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/Projects/NASMHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/include/io.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/include/io64.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/keys.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Linux/share/sasm/sasm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/SASM.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/FASM/fasm.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/FASM/listing.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/GAS/32/as.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/GAS/64/as.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/bin/gcc.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/bin/gdb.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/bin/libexpat-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/bin/libgcc_s_dw2-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/bin/libiconv-2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/bin/libintl-8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/bin/objdump.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/crt2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/gcc/mingw32/4.6.2/crtbegin.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/gcc/mingw32/4.6.2/crtend.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/gcc/mingw32/4.6.2/libgcc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/gcc/mingw32/4.6.2/libgcc_eh.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/libadvapi32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/libkernel32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/libmingw32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/libmingwex.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/libmoldname.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/libmsvcrt.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/libshell32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/lib/libuser32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/libexec/gcc/mingw32/4.6.2/liblto_plugin-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW/mingw32/bin/ld.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/bin/gcc.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/bin/gdb.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/bin/gdborig.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/bin/libwinpthread-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/bin/objdump.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/include/gdb/jit-reader.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/libgcc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/libgcc_eh.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/libexec/gcc/x86_64-w64-mingw32/4.8.1/liblto_plugin-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/bin/libpython2.7.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/UserDict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/_abcoll.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/_sysconfigdata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/_weakrefset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/abc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/codecs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/copy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/copy_reg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/aliases.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/ascii.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/base64_codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/big5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/big5hkscs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/bz2_codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/charmap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp037.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1006.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1026.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1140.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1250.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1251.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1252.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1253.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1254.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1255.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1256.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1257.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp1258.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp424.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp437.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp500.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp720.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp737.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp775.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp850.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp852.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp855.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp856.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp857.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp858.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp860.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp861.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp862.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp863.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp864.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp865.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp866.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp869.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp874.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp875.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp932.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp949.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/cp950.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/euc_jis_2004.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/euc_jisx0213.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/euc_jp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/euc_kr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/gb18030.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/gb2312.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/gbk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/hex_codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/hp_roman8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/hz.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/idna.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso2022_jp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso2022_jp_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso2022_jp_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso2022_jp_2004.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso2022_jp_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso2022_jp_ext.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso2022_kr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_13.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_14.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_15.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/iso8859_9.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/johab.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/koi8_r.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/koi8_u.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/latin_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_arabic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_centeuro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_croatian.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_cyrillic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_farsi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_greek.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_iceland.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_latin2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_roman.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_romanian.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mac_turkish.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/mbcs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/palmos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/ptcp154.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/punycode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/quopri_codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/raw_unicode_escape.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/rot_13.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/shift_jis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/shift_jis_2004.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/shift_jisx0213.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/string_escape.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/tis_620.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/undefined.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/unicode_escape.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/unicode_internal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_16_be.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_16_le.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_32_be.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_32_le.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/utf_8_sig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/encodings/uu_codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/functools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/genericpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/linecache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/locale.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/ntpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/os.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/re.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/site.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/sre_compile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/sre_constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/sre_parse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/stat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/sysconfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/traceback.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/types.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/warnings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/opt/lib/python2.7/weakref.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/command/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/command/explore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/command/pretty_printers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/command/prompt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/command/type_printers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/function/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/function/strfns.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/printing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/prompt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/python/gdb/types.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/amd64-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/gdb-syscalls.dtd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/i386-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/mips-n32-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/mips-n64-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/mips-o32-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/ppc-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/ppc64-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/sparc-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/share/gdb/syscalls/sparc64-linux.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/bin/ld.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/crt2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/crtbegin.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/crtend.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libadvapi32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libiconv.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libkernel32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libmingw32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libmingwex.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libmoldname.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libmsvcrt.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libpthread.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libshell32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/MinGW64/x86_64-w64-mingw32/lib/libuser32.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/NASM/macro.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/NASM/macro64.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/NASM/nasm.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/Projects/FASMHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/Projects/FASMHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/Projects/GASHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/Projects/GASHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/Projects/MASMHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/Projects/NASMHello.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/Projects/NASMHellox64.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/include/io.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/include/io64.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/keys.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/Windows/licenseRus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/assembler.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/assembler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/assembler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/codeeditor.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/codeeditor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/codeeditor.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/common.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/common.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/configfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debuganycommandwidget.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debuganycommandwidget.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debuganycommandwidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debugger.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debugger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debugger.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debugtablewidget.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debugtablewidget.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/debugtablewidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/fasm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/fasm.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/fasm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/finddialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/finddialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/finddialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/gas.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/gas.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/gas.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/gccbasedassembler.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/gccbasedassembler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/gccbasedassembler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/getstartedwidget.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/getstartedwidget.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/getstartedwidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/helpENG.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/highlighter.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/highlighter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/highlighter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/icon.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/breakpoint.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/build.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/continue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/cut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/debug.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/debugLine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/debugPause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/mainIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/paste.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/redo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/run.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/smallIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/stepinto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/stepover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/stop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/images/undo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_de.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_es.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_he.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_he.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_it.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_it.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_pl.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_ru.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_tr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_tr.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_zh.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/language_zh.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/mainwindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/mainwindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/mainwindow.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/masm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/masm.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/masm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_assembler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_codeeditor.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_debuganycommandwidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_debugger.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_debugtablewidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_fasm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_finddialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_gas.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_getstartedwidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_mainwindow.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_masm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_nasm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_predefs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_qtlocalpeer.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_qtsingleapplication.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_ruqplaintextedit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_ruqtextedit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_signallocker.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_tab.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/moc_watchsettingswidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/nasm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/nasm.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/nasm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qrc_Help.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qrc_Images.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qrc_Languages.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qt_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qt_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qt_he.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qt_it.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qt_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qt_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qt_tr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qt_zh.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qtlocalpeer.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/qtsingleapplication.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/ruqplaintextedit.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/ruqplaintextedit.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/ruqplaintextedit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/ruqtextedit.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/ruqtextedit.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/ruqtextedit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/sasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/settings.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/signallocker.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/signallocker.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/signallocker.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/QtLockedFile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/QtSingleApplication" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtlocalpeer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtlocalpeer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtlockedfile.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtlockedfile.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtlockedfile_unix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtlockedfile_win.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtsingleapplication.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtsingleapplication.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/singleapplication/qtsingleapplication.pri" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/tab.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/tab.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/tab.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/ui_settings.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/watchsettingswidget.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/watchsettingswidget.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.Utility/01.Dman95-SASM-ae16f40/watchsettingswidget.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.BootLoader/BootLoader" beforeDir="false" afterPath="$PROJECT_DIR$/00.BootLoader/BootLoader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -532,14 +108,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1159">
-                <caret line="162" column="66" lean-forward="true" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="66" />
+              <first_editor relative-caret-position="1129">
+                <caret line="181" column="63" selection-start-line="181" selection-start-column="63" selection-end-line="181" selection-end-column="63" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00.BootLoader/BootLoader">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00.BootLoader/TestBootLoader_Assembly.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -548,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/05.Assembly/assemblytest01.asm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -557,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/05.Assembly/hello.asm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -580,6 +170,8 @@
         <option value="$PROJECT_DIR$/05.Assembly/assemblytest01.asm" />
         <option value="$PROJECT_DIR$/05.Assembly/hello.asm" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/00.BootLoader/BootLoader" />
+        <option value="$PROJECT_DIR$/00.BootLoader/TestBootLoader_Assembly.txt" />
       </list>
     </option>
   </component>
@@ -607,6 +199,11 @@
             <path>
               <item name="mink64os" type="b2602c69:ProjectViewProjectNode" />
               <item name="mink64os" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mink64os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mink64os" type="462c0819:PsiDirectoryNode" />
+              <item name="00.BootLoader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -664,7 +261,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556029218871</updated>
-      <workItem from="1556029220961" duration="27777000" />
+      <workItem from="1556029220961" duration="31569000" />
     </task>
     <task id="LOCAL-00001" summary="basic directories">
       <created>1556030209496</created>
@@ -736,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556382268490</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day5-assembly emulator">
+      <created>1556458020556</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556458020556</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27777000" />
+    <option name="totallyTimeSpent" value="31569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -845,24 +449,34 @@
     <entry file="file://$PROJECT_DIR$/05.Assembly/assemblytest01.asm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05.Assembly/hello.asm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1159">
-            <caret line="162" column="66" lean-forward="true" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="66" />
+          <first_editor relative-caret-position="1129">
+            <caret line="181" column="63" selection-start-line="181" selection-start-column="63" selection-end-line="181" selection-end-column="63" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00.BootLoader/BootLoader">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00.BootLoader/TestBootLoader_Assembly.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,17 @@
+; stack 0x0000:0000 - 0x0000:FFFF  size 64K
+
+mov ax, 0x0000  ; stack segment start at 0x0000
+mov ss, ax      ; ss segment register = 0x0000
+mov sp, 0xfffe  ; sp register address = 0xfffe
+mov bp, 0xfffe  ; bp register address = 0xfffe
+
+
+; to call print function on screen
+
+push word [pcString] ; to put string address in stack
+push word [iY]       ; to put Y address of screen
+push word [iX]       ; to put X address of screen
+call PRINTMESSAGE    ; call function PRINTMESSAGE
+add sp, 6            ;  3*2byte to pop function parameteres
+
+

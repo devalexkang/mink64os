@@ -163,3 +163,24 @@ Day06:
     etc : sasm has error while compiling. I will focus to use nasm
     
     
+Day07:
+    
+    Stack : last in first out, required to use function on x86 processor
+            to save return address after processor calls function
+            to save parameters of the function
+            
+    to create stack, 3 registers require. stack segment register
+        1. stack segment register - ss, 
+        2. base pointer register - bp,
+        3. stack pointer register - sp
+        
+        ss for base address of the segment to use as stack
+        (stack starts from ss, top)
+        bp for stack base address
+        (stack ends at bp, bottom)
+        sp to indicate top of the stack
+        (stack is full until sp, pop - move to bp, push - move to ss)
+        
+        
+        
+        
