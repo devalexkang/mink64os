@@ -183,4 +183,33 @@ Day07:
         
         
         
-        
+Day08:
+
+    general format of assembly function
+    
+    push bp      ; input base pointer register in stack
+    mov bp, sp   ; base pointer register = stack pointer register's value
+                 ; to approach parameters using base pointer register
+    push es      ; input from ES segment register to DX register in stack
+    push si
+    push di
+    push ax
+    push cx
+    push dx
+    ---------
+    
+    mov ax, word [bp + 4]    ; parameter 1 (iX, x coordinator value)
+    mov bx, word [bp + 6]    ; parameter 2 (iY, y coordinator value)
+    mov cx, word [bp + 8]    ; parameter 2 (pcString, address of string)
+    
+    ---------
+    
+    pop dx         ; pop every register from stack ( reverse againster push)
+    pop cx
+    pop ax
+    pop di
+    pop si
+    pop es
+    pop bp          ; 
+    ret 
+   
