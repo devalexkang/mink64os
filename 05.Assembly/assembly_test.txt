@@ -1,0 +1,59 @@
+; 16 bit assembly
+; a function to print a message
+; param : x position, y position, string
+
+printmessage;
+    push bp     ; input base pointer register in stack
+    mov bp, sp  ; put the value of stack pointer register to base pointer register
+                ; for parameters
+
+    push es
+    push si
+    push di
+    push ax
+    push cx
+    push dx
+
+
+    ; to set video mode address in ES segment register
+    mov ax, 0xb800  ; the starting address of video memory, 0xb800, to ax
+    mov es, ax      ; ax to es, segment register
+
+
+    ; to calculate video memory address by x, y values
+    ; y - line address
+    mov ax, word [bp + 6]   ; to put parameter 2, y, on AX register
+    mov si, 160             ; the byte number of 1 line (2 bytes * 80 columns)
+    mul si                  ; y address = ax register * si register
+    mov di, ax              ; put y address to di register
+
+    ; x - line address
+    mov ax, word [bp + 4]   ; to put parameter 1, x, in ax register
+    mov si, 2               ; 2 byte for 1 character
+    mul si                  ; x address = ax register * si register
+    add di ax               ; x address + y address => real memory address
+
+    ; string address
+    mov si , word [bp + 8]  ; parameter 3, string
+
+.messageloop:   to print message
+    mov cl, byte [si]   ; to get one character where si register indicates and to put it on CL register (CX - low part)
+    cmp cl, 0           ; to compater cl and 0, end of string
+    je .messageend     ; if cl=0, move to .messageend
+
+    mov byte [es:di], cl    ; if not 0, show the character on video memory address 0xb800:di
+
+    add si, 1               ; add 1 byte to si register
+    add di, 2               ; add 2 byte (1 character ) to di register
+
+    jmp . messageloop       ; to messageloop
+
+.messageend
+    pop dx
+    pop cx
+    pop ax
+    pop di
+    pop si
+    pop es
+    pop bp
+    ret

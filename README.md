@@ -213,3 +213,42 @@ Day08:
     pop bp          ; 
     ret 
    
+Day09:
+    
+    ./mink64os/05.Assembly/assemply_test.txt
+    to practice assembly function ( printing a string function)
+    
+    call conention in safe mode (32 bit mode)
+    - stdcall : parameters will be stroed in stack
+                callee will manage stack
+                
+    - cdecl : parameters will be stored in stack
+                caller will manage stack
+                
+    - fastcall : some parameters will be stored in registers
+                 others will be stored in stack
+                 callee will manage stack
+                 
+     ex)
+     in add(int ia, int ib, int ic)
+     {
+        return ia + ib + ic;
+     }
+     void main (void)
+     {
+        int ireturn;
+        ireturn = add(1, 2, 3);
+     }
+     
+     stdcall : push variables from right to left, ic, ib, ia
+               to return value, EAX register will be used.
+               func add will remove parameters in stack
+    
+     cdecl : push variables from right to left, ic, ib, ia
+             to return value, EAX register will be used.
+             func main will remove func add parameteres (ia, ib, ib) in stack
+             
+     fastcall : ic to stack, ib to EDX register, ic to ECS register
+                to return value, EAX register will be used
+                func add will remove parameters in stack
+     
