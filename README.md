@@ -87,7 +87,7 @@ Day05:
         exp : RAX, EAX, AX
     - RAX : arithmetic register
     - RBX : base address register
-    - RCS : counter register ( to count loop)
+    - RCX : counter register ( to count loop)
     - RDX : data register ( to sotre data )
     - RSI : source index register
     - RDI : destination index register
@@ -95,14 +95,36 @@ Day05:
     - RSP : stack pointer resiter ( to store stack address current using)
     
     2. segment register : to extend memory addresses with general register
-    - CS : segment address where to store  current program
-    - DS : segment address where to store data using now
-    - ES : segment address ?
-    - SS : segmnet address where stack locates
+    - CS : code segement, segment address where to store  current program
+    - DS : data segement, segment address where to store data using now
+    - ES : extra segment, segment address where to store extra data
+    - SS : strack segment, segmnet address where stack locates
     
     3. special register : developer cannot control it
     - RIP : instruction poinster ( address where to store next command )
     - eflag register : to show processor status, 32bit and each bit has its own meaning
+        0. 	CF : Carry Flag. Set if the last arithmetic operation carried (addition) or borrowed (subtraction) a bit beyond the size of the register. This is then checked when the operation is followed with an add-with-carry or subtract-with-borrow to deal with values too large for just one register to contain.
+        2. 	PF : Parity Flag. Set if the number of set bits in the least significant byte is a multiple of 2.
+        4. 	AF : Adjust Flag. Carry of Binary Code Decimal (BCD) numbers arithmetic operations.
+        6. 	ZF : Zero Flag. Set if the result of an operation is Zero (0).
+        7. 	SF : Sign Flag. Set if the result of an operation is negative.
+        8. 	TF : Trap Flag. Set if step by step debugging.
+        9. 	IF : Interruption Flag. Set if interrupts are enabled.
+        10. 	DF : Direction Flag. Stream direction. If set, string operations will decrement their pointer rather than incrementing it, reading memory backwards.
+        11. 	OF : Overflow Flag. Set if signed arithmetic operations result in a value too large for the register to contain.
+        12-13. 	IOPL : I/O Privilege Level field (2 bits). I/O Privilege Level of the current process.
+        14. 	NT : Nested Task flag. Controls chaining of interrupts. Set if the current process is linked to the next process.
+        16. 	RF : Resume Flag. Response to debug exceptions.
+        17. 	VM : Virtual-8086 Mode. Set if in 8086 compatibility mode.
+        18. 	AC : Alignment Check. Set if alignment checking of memory references is done.
+        19. 	VIF : Virtual Interrupt Flag. Virtual image of IF.
+        20. 	VIP : Virtual Interrupt Pending flag. Set if an interrupt is pending.
+        21. 	ID : Identification Flag. Support for CPUID instruction if can be set. 
+    
+    31 	30 	29 	28 	27 	26 	25 	24 	23 	22 	21 	20 	    19 	    18 	17 	16
+    0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	ID 	VIP 	VIF 	AC 	VM 	RF
+    15 	14 	13 	12 	11 	10 	9 	8 	7 	6 	5 	4 	3 	2 	1 	0
+    0 	NT 	IOPL 	OF 	DF 	IF 	TF 	SF 	ZF 	0 	AF 	0 	PF 	1 	CF 
     
     -------------------------------------------------------
     emulator
@@ -118,6 +140,15 @@ Day05:
 Day06:
 
     assembly : 16bit
+    
+    RAX, EAX, AX, AH + AL
+    RCX, ECX, CX, CH + CL
+    RDX, EDX, DX, DH + DL
+    RBX, EBX, BX, BH + BL
+    RSP, ESP, SP
+    RBP, EBP, BP
+    RSI, ESI, SI
+    RDI, EDI, DI 
     
     method to indicate memory address : d16 = 16 bit number offset, d8 = 8bit number offset
     [] : pointer 
@@ -169,7 +200,7 @@ Day07:
             to save return address after processor calls function
             to save parameters of the function
             
-    to create stack, 3 registers require. stack segment register
+    to create stack, 3 registers require
         1. stack segment register - ss, 
         2. base pointer register - bp,
         3. stack pointer register - sp
