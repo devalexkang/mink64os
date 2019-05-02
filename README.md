@@ -283,3 +283,18 @@ Day09:
                 to return value, EAX register will be used
                 func add will remove parameters in stack
      
+     
+Day10:
+
+    IA-32e mode function call standard : fastcall extension to use more registers
+                                         + 8 more general register (R8 ~ R15 register)
+                                         maximu 8 parameters can be used
+                                         
+     [es:si] : segement * segment size + offset
+                                         
+    16 bit test bootloader sample : ./mink64os/00.BootLoader/BootLoader16.asm
+
+    
+    
+    
+        
