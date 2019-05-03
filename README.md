@@ -295,6 +295,9 @@ Day10:
     16 bit test bootloader sample : ./mink64os/00.BootLoader/BootLoader16.asm
 
     
+Day11:
     
-    
+
+    16 bit test bootloader sample : ./mink64os/00.BootLoader/BootLoader16.asm
+    (to continue)   
         
