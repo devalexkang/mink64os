@@ -37,33 +37,33 @@ start:
     mov si, 0           ; to initialize si register (index of string, message)
 
 
-.screenclearloop:
-    mov byte [es:si], 0
-    mov byte [es:si +1], 0x0a
-    add si, 2
-    cmp si, 80*25*2
-    jl .screenclearloop
+.screenclearloop:               ; to clear screen
+    mov byte [es:si], 0         ; to input 0 into video meemory address for character
+    mov byte [es:si +1], 0x0a   ; to input 0x0a into video memory address for background coloer
+    add si, 2                   ; to next step , + 2 byte
+    cmp si, 80*25*2             ; to check whether the end of screen or not
+    jl .screenclearloop         ; if not loop to clear
 
 
 ;;;;;;;;;;;;;;;;;;
 ; starting message
 ;;;;;;;;;;;;;;;;;;
 
-    push message1
-    push 0
-    push 0
-    call printmessage
-    add sp, 6
+    push message1               ; to put message address into stack
+    push 0                      ; to input x value into stack
+    push 0                      ; to input y value into stack
+    call printmessage           ; to call function
+    add sp, 6                   ; to delete used parameters
 
 
 ;;;;;;;;;;;;;;;;;;
 ;loading message
 ;;;;;;;;;;;;;;;;;;
-    push imageloadingmessage
-    push 1
-    push 0
-    call printmessage
-    add sp, 6
+    push imageloadingmessage    ; to put message address into stack
+    push 1                      ; to input x value into stack
+    push 0                      ; to input y value into stack
+    call printmessage           ; to call function
+    add sp, 6                   ; to delete used parameters
 
 ;;;;;;;;;;;;;;;;;;
 ;loading os image for disk
@@ -81,26 +81,27 @@ resetdisk;
 ; call bios reset function
 ;;;;;;;;;;;;;;;;;;;
 
-    mov ax, 0
+    mov ax, 0                   ; service number 0, floppy = 0
     mov dl, 0
     int 0x13
 
-    jc handlediskerror
+    jc handlediskerror          ; to hanle error
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;read sector from disk
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
-    mov si, 0x1000
+    mov si, 0x1000              ;  es:bx <- 0x10000 <- disk contents
     mov es, si
-    mov bx, 0x0000
+    mov bx, 0x0000              ; to set address 0x1000:00000
 
-    mov di, word [totalsectorcount]
+
+    mov di, word [totalsectorcount]     ; to put sector amount into DI register
 
 readdata:
 
-    cmp di, 0
+    cmp di, 0               ;
     je readend
     sub di, 0x1
 
