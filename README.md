@@ -301,3 +301,15 @@ Day11:
     16 bit test bootloader sample : ./mink64os/00.BootLoader/BootLoader16.asm
     (to continue)   
         
+        
+Day12:
+
+    16 bit test bootloader sample : ./mink64os/00.BootLoader/BootLoader16.asm
+    
+Day13:
+    
+    1. bios starts to load the boot loader
+    2. the boot loader loads os image
+    3. atfer os image loading, os code would be run
+    4. To test, boot loader read the first part of each segment (there is string), ans shows message. if not, it generates errors
+    5. at the last segment, it does loop.
