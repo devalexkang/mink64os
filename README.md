@@ -313,3 +313,8 @@ Day13:
     3. atfer os image loading, os code would be run
     4. To test, boot loader read the first part of each segment (there is string), ans shows message. if not, it generates errors
     5. at the last segment, it does loop.
+    
+Day14:
+
+    ./mink64os/01.Kernel32/VirtualOS.asm
+    
