@@ -321,5 +321,7 @@ Day14:
     
 Day15:
     
-    review
+    ./mink64os/01.Kernel32/make
+     qemu-system-x86_64 -fda VirtualOS.bin -M pc
     
+    VirtualOS.asm - note

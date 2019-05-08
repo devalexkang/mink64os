@@ -1,24 +1,29 @@
 ;1024 sector size
 
-[org 0x00]
-[bits 16]
+[org 0x00]  ; starting address is 0x00
+[bits 16]   ; 16bit code
 
-section .text
+section .text   ; defition of text section (segment)
 
-jmp 0x1000:start
+jmp 0x1000:start    ;  to copy 0x1000 to cs segment register and to move start label
 
-sectorcount: dw 0x0000
+sectorcount: dw 0x0000  ; to save current sector number
+totalsectorcount equ 1024   ; total amount of sectors, maximum 1152 sectors ( 0x90000 byte )
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; code area
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
 start:
-    mov ax, cs
-    mov ds, ax
-    mov ax, 0xb800
-    mov es, ax
+    mov ax, cs      ; to set cs register value to ax register
+    mov ds, ax      ; to set ax register value to ds register
+    mov ax, 0xb800  ; to set video memory address 0xb800 to ax (segment) register
+    mov es, ax      ; to set ES segment register
 
 
-    %assign i 0
-    %rep totalsectorcount
+    %assign i 0     ; variable i = 0
+    %rep totalsectorcount   ; to repeat totalsectorcount times
         %assign i i+1
 
         mov ax, 2
