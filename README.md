@@ -324,4 +324,4 @@ Day15:
     ./mink64os/01.Kernel32/make
      qemu-system-x86_64 -fda VirtualOS.bin -M pc
     
-    VirtualOS.asm - note
+    VirtualOS.asm - comment

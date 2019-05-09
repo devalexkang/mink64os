@@ -24,28 +24,34 @@ start:
 
     %assign i 0     ; variable i = 0
     %rep totalsectorcount   ; to repeat totalsectorcount times
-        %assign i i+1
+        %assign i i+1       ; i = i + 1
 
-        mov ax, 2
+        mov ax, 2           ; to put 2 to ax register
 
-        mul word [sectorcount]
-        mov si, ax
-
-
-        mov byte [es:si + (160*2) ], '0' + (i % 10)
-
-        add word [sectorcount], 1
+        mul word [sectorcount]  ; ax register * sector number
+        mov si, ax              ; to set previous mulplication result to si register
 
 
+        mov byte [es:si + (160*2) ], '0' + (i % 10)     ;
+
+        add word [sectorcount], 1           ; sector number + 1
+
+        ; to next sector or loop
         %if i == totalsectorcount
 
-            jmp $
+            jmp $   ; loop
 
         %else
-            jmp (0x1000 + i * 0x20): 0x0000
+            jmp (0x1000 + i * 0x20): 0x0000  ; next sector offset
         %endif
 
         times (512 - ($ - $$ ) % 512 ) db 0x00
+                    ; $ current section ( .text) starting address
+                    ; $ - $$  offset based on current section
+                    ; 512 - ($ - $$) % 512 from current address untill address 512
+                    ; db 0x00 1byte <= 0x00
+                    ;times  loop
+                    ; from current address until address 512, to fill 0x00
 
 
     %endrep
