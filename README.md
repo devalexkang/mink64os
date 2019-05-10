@@ -325,3 +325,6 @@ Day15:
      qemu-system-x86_64 -fda VirtualOS.bin -M pc
     
     VirtualOS.asm - comment
+    
+Day16:
+    ./mink64os/Disk.img - error
