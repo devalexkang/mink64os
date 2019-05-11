@@ -328,3 +328,7 @@ Day15:
     
 Day16:
     ./mink64os/Disk.img - error
+    
+Day17:
+
+    review until Day16
