@@ -75,7 +75,7 @@ start:
 ;reset before loading
 ;;;;;;;;;;;;;;;;;;;
 
-resetdisk;
+resetdisk:
 
 ;;;;;;;;;;;;;;;;;;;
 ; call bios reset function
@@ -143,7 +143,7 @@ readdata:
     jne readdata
 
     add byte [tracknumber], 0x01
-    jmp readata
+    jmp readdata
 
 readend:
 
@@ -183,7 +183,7 @@ handlediskerror:
 
 printmessage:
     push bp
-    mov pb, sp
+    mov bp, sp
 
     push es
     push si
@@ -252,7 +252,7 @@ message1: db 'mint64 os boot loader start', 0
 
 diskerrormessage: db 'disk error', 0
 imageloadingmessage: db 'os image loading', 0
-loadingcompletemessage: db, 'complete', 0
+loadingcompletemessage: db 'complete', 0
 
 ;parameters about disk reading
 sectornumber: db 0x02

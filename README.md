@@ -332,3 +332,17 @@ Day16:
 Day17:
 
     review until Day16
+    
+Day18:
+    
+    ./mink64os/00.BootLoader/BootLoader16.asm -> BootLoader.bin
+    ./mink64os/01.Kernel32/VirtualOS.asm -> VirtualOS.bin
+    BootLoader.bin + VirtualOS.bin -> ./mink64os/Disk.img
+    
+    error on printing number, 11 times, expected 1024, trying fix it
+    
+    ./mink64os/makefile error - tab problem, trying fix it
+    
+    
+    
+    
