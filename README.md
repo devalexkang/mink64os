@@ -343,6 +343,30 @@ Day18:
     
     ./mink64os/makefile error - tab problem, trying fix it
     
+Day19:
+
+    to change real mode to protection mode
+    1-5 : 16big real mode, 6 : 32 bit protective mode
+    
+    1. generating segment descriptor
+    2. generating GDT information
+    3. setting GDT information to processor
+    4. setting CR0 control register
+    5. changing cs segment selector by jmp command and turing to protective mode
+    6. initializing segment selectors and stack
+    7. running protective mode kernel
+    
+    
+    1. Segment descriptor
+        to show segment information
+        code segment descriptor + data segment descriptor
+        code segment descriptor => segment information which has runnable code and CS segment selector uses
+        data segment descriptor => segment information which has data, other selector excepto CS segment selector use
+        
+        real mode segment register == protective mode segment selector
+        
+        
+    
     
     
     
