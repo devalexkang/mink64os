@@ -365,6 +365,13 @@ Day19:
         
         real mode segment register == protective mode segment selector
         
+Day20:
+    
+    GDT global descriptor table = code segment descriptor + data segment descriptor
+    (null descriptor)
+    
+    32bit, based on address 0, + offset, linear structure
+    
         
     
     
