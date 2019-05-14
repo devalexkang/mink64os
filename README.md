@@ -372,6 +372,11 @@ Day20:
     
     32bit, based on address 0, + offset, linear structure
     
+    
+Day21:
+
+    ./mink64os/05.Assembly/assembly_test_32.txt
+    
         
     
     

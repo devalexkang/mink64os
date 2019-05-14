@@ -4,25 +4,35 @@ gdtr:
     dw gdtend - gdt - 1
     dd (gdt - $$ + 0x10000)
 
+
+;gdt table
+
 gdt:
+    ; null descriptor
+    nulldescriptor:
+        dw 0x0000
+        dw 0x0000
+        db 0x00
+        db 0x00
+        db 0x00
+        db 0x00
 
+    ;code descriptor
 
+    codedescriptor:
+        dw 0xffff   ; limit [15:0]
+        dw 0x0000   ; base [15:0]
+        db 0x00     ; base [23:16]
+        db 0x9a     ; p=1, dpl=0, code segment, execute/read
+        db 0xcf     ; g=1, d=1, l=0, limit[19:16]
+        db 0x00
 
-;code descriptor
-
-codedescriptor:
-    dw 0xffff   ; limit [15:0]
-    dw 0x0000   ; base [15:0]
-    db 0x00     ; base [23:16]
-    db 0x9a     ; p=1, dpl=0, code segment, execute/read
-    db 0xcf     ; g=1, d=1, l=0, limit[19:16]
-    db 0x00
-
-;datadescriptor
-datadescriptor:
-    dw 0xffff   ; limit [15:0]
-    dw 0x0000   ; base [15:0]
-    db 0x00     ; base [23:16]
-    db 0x92     ; p=1, dpl=0, data segment, read/write
-    db 0xcf     ; g=1, d=1, l=0, limit[19:16]
-    db 0x00     ; base [31:24]
+    ;datadescriptor
+    datadescriptor:
+        dw 0xffff   ; limit [15:0]
+        dw 0x0000   ; base [15:0]
+        db 0x00     ; base [23:16]
+        db 0x92     ; p=1, dpl=0, data segment, read/write
+        db 0xcf     ; g=1, d=1, l=0, limit[19:16]
+        db 0x00     ; base [31:24]
+gdtend:
