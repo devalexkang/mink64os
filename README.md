@@ -377,6 +377,10 @@ Day21:
 
     ./mink64os/05.Assembly/assembly_test_32.txt
     
+Day22:
+
+    review until day 21
+    
         
     
     
