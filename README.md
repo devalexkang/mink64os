@@ -381,6 +381,22 @@ Day22:
 
     review until day 21
     
+Day23:
+
+    to trun protective mode
+    
+    1. to set GDTR register
+    2. to set CR0 control register
+    2. jmp command
+    
+    1. gdt information on processor
+        lgdt [gdtr] ; to load gdt table to process
+        
+        + hold interrupts using cli command, to release cli to use 
+        
+    2. CR0 control register
+        mov eax, 0x4000003b
+        mov cr0, eax
         
     
     
