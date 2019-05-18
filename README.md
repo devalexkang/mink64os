@@ -398,6 +398,10 @@ Day23:
         mov eax, 0x4000003b
         mov cr0, eax
         
+Day24:
+
+    ./mink649s/01.Kernel32/EntryPoint.s  (beginning)
+        
     
     
     
