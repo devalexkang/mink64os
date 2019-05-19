@@ -403,6 +403,9 @@ Day24:
     ./mink649s/01.Kernel32/EntryPoint.s  (beginning)
         
     
-    
+Day24:
+  
+    ./mink649s/01.Kernel32/EntryPoint.s  (continue)
+            
     
     

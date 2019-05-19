@@ -64,6 +64,98 @@ printmessage:
     push ecx
     push edx
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;x, y coordinates of video memory address
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    mov eax, dword [ ebp + 12 ]
+    mov esi, 160
+    mul esi
+    mov edi, eax
+
+    mov eax, dword [ebp + 8 ]
+    mov esi, 2
+    mul esi
+    add edi, eax
+
+
+    mov esi, dword [ ebp + 16 ]
+
+
+.messageloop:
+    mov cl, byte [esi]
+
+    cmp cl, 0
+    je .messageend
+
+    mov byte [ edi + 0xb8000 ], cl
+
+    add esi, 1
+    add edi, 2
+
+    jmp .messageloop
+
+.messageend:
+    pop edx
+    pop ecx
+    pop eax
+    pop edi
+    pop esi
+    pop ebp
+    ret
+
+
+;;;;;;;;;;;;;;;;;;;;;;
+; data area
+;;;;;;;;;;;;;;;;;;;;;;
+
+align 8, db 0
+
+
+dw 0x0000
+
+; definition gdtr structure
+
+gdtr:
+    dw gdtend - gdt - 1
+    dd ( gdt - $$ + 0x10000 )
+
+
+; definition of gdt table
+
+gdt:
+; null descriptor, 0
+
+nulldescriptor:
+    dw 0x0000
+    dw 0x0000
+    db 0x00
+    db 0x00
+    db 0x00
+    db 0x00
+
+
+; protective mode kernel - code segment descriptor
+
+codedescriptor:
+    dw 0xffff
+    dw 0x0000
+    dw 0x00
+    db 0x9a
+    db 0xcf
+    db 0x00
+    dw 0xffff
+    dw 0x0000
+    db 0x00
+    db 0x92
+    db 0xcf
+    db 0x00
+
+gdtend:
+
+switchsuccessmessage: db 'switch to protected model success', 0
+
+times 512 - ( $ - $$ ) db 0x00
 
 
 
