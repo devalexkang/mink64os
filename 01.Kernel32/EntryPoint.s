@@ -22,7 +22,7 @@ start:
     ;disable paging+cache+ internal FPU + align check
     ;;;;;;;;;;;;;;;;;;;;;;
 
-    mov eax 0x4000003b;
+    mov eax, 0x4000003b;
     mov cr0, eax
 
     jmp dword 0x08: (protectedmode - $$ + 0x10000 )
@@ -43,7 +43,7 @@ protectedmode:
     mov ebp, 0xfffe
 
     ; show message about protected mode
-    push ( swtchsuccessmessage - $$ + 0x10000 )
+    push ( switchsuccessmessage - $$ + 0x10000 )
     push 2
     push 0
     call printmessage

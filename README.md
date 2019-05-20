@@ -408,4 +408,11 @@ Day24:
     ./mink649s/01.Kernel32/EntryPoint.s  (continue)
             
     
-    
+Day25:    
+
+    ./mink64os/00.BootLoader$ nasm -o BootLoader.bin BootLoader16.asm
+    ./mink64os/01.Kernel32$ nasm -o Kernel32.bin EntryPoint.s 
+    ./mink64os$ cat 00.BootLoader/BootLoader.bin 01.Kernel32/Kernel32.bin > Disk.img
+    error: warning: TCG doesn't support requested feature: CPUID.01H:ECX.vmx [bit 5]
+
+
