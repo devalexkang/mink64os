@@ -126,30 +126,32 @@ gdtr:
 gdt:
 ; null descriptor, 0
 
-nulldescriptor:
-    dw 0x0000
-    dw 0x0000
-    db 0x00
-    db 0x00
-    db 0x00
-    db 0x00
+    nulldescriptor:
+        dw 0x0000
+        dw 0x0000
+        db 0x00
+        db 0x00
+        db 0x00
+        db 0x00
 
 
 ; protective mode kernel - code segment descriptor
 
-codedescriptor:
-    dw 0xffff
-    dw 0x0000
-    dw 0x00
-    db 0x9a
-    db 0xcf
-    db 0x00
-    dw 0xffff
-    dw 0x0000
-    db 0x00
-    db 0x92
-    db 0xcf
-    db 0x00
+    codedescriptor:
+        dw 0xffff
+        dw 0x0000
+        dw 0x00
+        db 0x9a
+        db 0xcf
+        db 0x00
+
+    datadescriptor:
+        dw 0xffff
+        dw 0x0000
+        db 0x00
+        db 0x92
+        db 0xcf
+        db 0x00
 
 gdtend:
 
