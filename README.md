@@ -415,4 +415,8 @@ Day25:
     ./mink64os$ cat 00.BootLoader/BootLoader.bin 01.Kernel32/Kernel32.bin > Disk.img
     error: warning: TCG doesn't support requested feature: CPUID.01H:ECX.vmx [bit 5]
 
+Day26:
+
+    to continue debuggin: maybe entrypoint.s problem - because bootloader16.asm and virtualos.bin worked
+    
 
