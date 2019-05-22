@@ -419,4 +419,10 @@ Day26:
 
     to continue debuggin: maybe entrypoint.s problem - because bootloader16.asm and virtualos.bin worked
     
+Day27:
 
+    to continue to find out error part - not yet
+    my guess : the book based on Win os, I am working on linux, maybe emulator has different config.
+    Tomorrow , to check config nasm and qemu
+    if I find, i will fix it, if not, I will change the book or process.
+    
