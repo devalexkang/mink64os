@@ -426,3 +426,6 @@ Day27:
     Tomorrow , to check config nasm and qemu
     if I find, i will fix it, if not, I will change the book or process.
     
+Day28:
+
+    review code
