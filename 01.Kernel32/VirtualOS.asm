@@ -45,7 +45,7 @@ start:
             jmp (0x1000 + i * 0x20): 0x0000  ; next sector offset
         %endif
 
-        times (512 - ($ - $$ ) % 512 ) db 0x00
+        times (1024 - ($ - $$ ) % 1024) db 0x00
                     ; $ current section ( .text) starting address
                     ; $ - $$  offset based on current section
                     ; 512 - ($ - $$) % 512 from current address untill address 512

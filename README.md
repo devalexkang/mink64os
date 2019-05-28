@@ -429,3 +429,12 @@ Day27:
 Day28:
 
     review code
+
+Day32:
+
+    Plan is changed. I need to study hardware architecture and assembly.
+    
+    1. great code 1 - understanding hardware
+    
+    
+    

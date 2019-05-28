@@ -9,8 +9,8 @@ jmp 0x07c0:start    ; to move to start label, put 0x07c0 to cs segment register
 ;environment setting parameteres
 ;;;;;;;;;;;;;;;;;;;;;
 
-;totalsectorcount: dw 1024   ; os image capacity - max 1152 sector 0x90000 byte
-totalsectorcount: dw 1
+totalsectorcount: dw 1024   ; os image capacity - max 1152 sector 0x90000 byte
+;totalsectorcount: dw 1
 
 
 ;;;;;;;;;;;;;;;;;;;
