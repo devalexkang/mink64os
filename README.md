@@ -434,7 +434,28 @@ Day32:
 
     Plan is changed. I need to study hardware architecture and assembly.
     
-    1. great code 1 - understanding hardware
+    book: great code 1 - understanding hardware
+    
+    1. what is the great code?
+    - efficient ussage of CPU - fast
+    - efficient usage of memory - small amount of code
+    - efficient usage of system resource
+    - easy to read and maintain
+    - keeping to follow the codingstyle
+    - keeping to follow the general software engineering method
+    - easy to extend
+    - well tested?
+    - documentation
+    
+    2. number <> representation of number
+    decimal, hexadecimal, octal, binary
+    
+    masm : 111011b or 111011B - binary
+    hla : %11_1011 - binary
+    
+    hexa - Ox, -H, &H, $-
+    
+    
     
     
     
