@@ -456,6 +456,11 @@ Day32:
     hexa - Ox, -H, &H, $-
     
     
+Day33:
+
+    least significant bit, most significant bit
+    
+    
     
     
     
