@@ -460,6 +460,9 @@ Day33:
 
     least significant bit, most significant bit
     
+Day34:
+    
+    fixed point vs floating point
     
     
     
