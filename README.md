@@ -465,5 +465,7 @@ Day34:
     fixed point vs floating point
     
     
-    
+Day35:
+
+    scaled numeric formats    
     
