@@ -467,5 +467,10 @@ Day34:
     
 Day35:
 
-    scaled numeric formats    
+    scaled numeric formats
+    
+Day36:
+    
+    bit operation
+        
     
