@@ -474,3 +474,6 @@ Day36:
     bit operation
         
     
+Day37:
+
+    bit operation again
