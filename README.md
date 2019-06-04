@@ -477,3 +477,7 @@ Day36:
 Day37:
 
     bit operation again
+    
+Day38:
+
+    floating point
