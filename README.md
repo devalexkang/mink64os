@@ -481,3 +481,8 @@ Day37:
 Day38:
 
     floating point
+    
+    
+Day39:
+
+    precision
