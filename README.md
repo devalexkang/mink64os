@@ -486,3 +486,7 @@ Day38:
 Day39:
 
     precision
+    
+Day40:
+
+    char set and string
