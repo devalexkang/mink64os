@@ -490,3 +490,7 @@ Day39:
 Day40:
 
     char set and string
+    
+Day41:
+
+    string
