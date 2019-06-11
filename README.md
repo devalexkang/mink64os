@@ -506,3 +506,7 @@ Day43:
 Day44 : 
 
     review
+    
+Day45 : 
+
+    system bus : data bus, address bus, control bus
