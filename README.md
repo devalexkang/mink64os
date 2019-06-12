@@ -510,3 +510,7 @@ Day44 :
 Day45 : 
 
     system bus : data bus, address bus, control bus
+    
+Day46:
+
+    16 bit data bus, 32 bit data bus
