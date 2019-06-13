@@ -514,3 +514,7 @@ Day45 :
 Day46:
 
     16 bit data bus, 32 bit data bus
+    
+Day47:
+
+    big endian, small endian
