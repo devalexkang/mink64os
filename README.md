@@ -526,3 +526,7 @@ Day48:
 Day49: 
 
     review
+    
+Day50:
+
+    system clock
