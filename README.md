@@ -530,3 +530,7 @@ Day49:
 Day50:
 
     system clock
+    
+Day51:
+
+    memory access
