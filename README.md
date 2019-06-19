@@ -534,3 +534,7 @@ Day50:
 Day51:
 
     memory access
+    
+Day52:
+
+    pointer
