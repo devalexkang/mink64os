@@ -538,3 +538,7 @@ Day51:
 Day52:
 
     pointer
+    
+Day53:
+
+    pointer again
